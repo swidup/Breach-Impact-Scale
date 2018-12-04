@@ -1,0 +1,108 @@
+{
+    "incident_id": "02DEA9F3-5F14-4983-832B-62858B8AC982",
+    "security_incident": "Confirmed",
+    "reference": "http://www.hhs.gov/ocr/privacy/hipaa/administrative/breachnotificationrule/HealthInfoBreaches.csv; http://www.phiprivacy.net/and-yet-9-more-breaches-added-to-hhss-breach-tool/",
+    "summary": "On September 16, 2013, we sent letters informing some patients with heart disease or diabetes about a variety of Group Health resources that are available to them. On September 23, 2013, we discovered that the Group Health member identification number and chronic condition (heart disease and/or diabetes) was mistakenly included with the name and address on the envelope. No other personal information was disclosed. This happened because an error in processing the patient information into each letter (called mail merge) caused too much information to go into the address section. Because of this error, we’re reviewing our process and taking steps to make sure something like this does not happen again.",
+    "source_id": "vcdb",
+    "confidence": "High",
+    "timeline": {
+        "incident": {
+            "year": 2013,
+            "month": 9,
+            "day": 16
+        }
+    },
+    "victim": {
+        "victim_id": "Group Health Cooperative",
+        "employee_count": "101 to 1000",
+        "industry": "524114",
+        "country": [
+            "US"
+        ],
+        "region": [
+            "019021"
+        ],
+        "state": "WA"
+    },
+    "action": {
+        "error": {
+            "variety": [
+                "Publishing error"
+            ],
+            "vector": [
+                "Carelessness"
+            ]
+        },
+        "unknown": {
+            "result": [
+                "Exfiltrate"
+            ]
+        }
+    },
+    "actor": {
+        "internal": {
+            "variety": [
+                "End-user"
+            ],
+            "motive": [
+                "NA"
+            ]
+        }
+    },
+    "asset": {
+        "total_amount": 1015,
+        "assets": [
+            {
+                "variety": "M - Documents",
+                "amount": 1015
+            }
+        ]
+    },
+    "attribute": {
+        "confidentiality": {
+            "data_disclosure": "Yes",
+            "data_total": 1015,
+            "data": [
+                {
+                    "amount": 1015,
+                    "variety": "Medical"
+                }
+            ],
+            "data_victim": [
+                "Patient"
+            ],
+            "state": [
+                "Stored unencrypted"
+            ]
+        }
+    },
+    "targeted": "NA",
+    "discovery_method": "Unknown",
+    "impact": {
+        "overall_rating": "Unknown"
+    },
+    "plus": {
+  "IOI_Impact_Score": 3,
+        "created": "2013-11-15T22:59:00Z",
+        "modified": "2018-08-15T00:17:01.345Z",
+        "timeline": {
+            "notification": {
+                "day": 13,
+                "month": 11,
+                "year": 2013
+            }
+        },
+        "master_id": "02DEA9F3-5F14-4983-832B-62858B8AC982",
+        "analysis_status": "Validated",
+        "analyst": "swidup",
+        "IOI_single_domestic_juris_affected": "Yes",
+         "IOI_media_coverage": "Yes",
+         "IOI_govt_reporting_required": "Yes",
+        "attribute": {
+            "confidentiality": {
+                "credit_monitoring": "U"
+            }
+        }
+    },
+    "schema_version": "1_3_2"
+}
