@@ -1,0 +1,97 @@
+{
+  "action": {
+    "error": {
+      "variety": [
+        "Publishing error",
+      ],
+      "vector": [
+        "Unknown"
+      ]
+    }
+  },
+  "actor": {
+    "internal": {
+      "motive": [
+        "NA"
+      ],
+      "variety": [
+        "Other"
+      ]
+    }
+  },
+  "asset": {
+    "assets": [
+      {
+        "amount": 12000,
+        "variety": "M - Documents"
+      }
+    ]
+  },
+  "attribute": {
+    "confidentiality": {
+      "data": [
+        {
+          "amount": 12000,
+          "variety": "Medical"
+        }
+      ],
+      "data_disclosure": "Yes",
+      "data_total": 12000,
+      "data_victim": [
+        "Patient"
+      ],
+      "state": [
+        "Printed"
+      ]
+    }
+  },
+  "confidence": "High",
+  "discovery_method": "Ext - customer",
+  "incident_id": "7de8fcc0-8cc0-11e7-97c0-cfe5b6ac1588",
+  "plus": {
+  "IOI_Impact_Score": 10,
+    "analysis_status": "Validated",
+    "analyst": "Breland",
+    "created": "2017-10-26T14:33:50Z",
+    "dbir_year": 2018,
+    "IOI_increased_security": "Yes",
+    "IOI_media_coverage": "Yes",
+    "IOI_legal_settlements": "Yes",
+    "IOI_legal_settlements_amt": "19500000",
+    "IOI_individual_lawsuit": "Yes",
+    "IOI_class_action_lawsuit": "Yes",
+    "event_chain": [
+      {
+        "action": "err",
+        "actor": "int",
+        "asset": "med",
+        "attribute": "cp"
+      }
+    ],
+    "github": "10026",
+    "master_id": "e2fdefa1-bbf6-46b5-a826-75b7ad60218c",
+    "modified": "2017-10-26T14:33:50Z",
+    "sub_source": "phidbr"
+  },
+  "reference": "https://www.npr.org/sections/health-shots/2018/01/17/572312972/aetna-agrees-to-pay-17-million-in-hiv-privacy-breach; https://www.hipaajournal.com/aetna-seeks-least-20-million-damages-firm-responsible-hiv-status-data-breach/; https://ag.ny.gov/press-release/ag-schneiderman-announces-settlement-aetna-over-privacy-breach-new-york-members-hiv-; https://ag.ny.gov/sites/default/files/aetna_aod_0.pdf; https://www.bankinfosecurity.com/aetna-breach-case-gets-messier-a-10646; http://www.fiercehealthcare.com/payer/aetna-mailings-may-have-exposed-some-members-hiv-status",
+  "schema_version": "1.3.2",
+  "security_incident": "Confirmed",
+  "source_id": "vcdb",
+  "summary": "Aetna mailings exposed members' HIV status",
+  "targeted": "NA",
+  "timeline": {
+    "incident": {
+      "month": 7,
+      "year": 2017
+    }
+  },
+  "victim": {
+    "country": [
+      "US"
+    ],
+    "employee_count": "10001 to 25000",
+    "industry": "524113",
+    "locations_affected": 1,
+    "victim_id": "Aetna "
+  }
+}
