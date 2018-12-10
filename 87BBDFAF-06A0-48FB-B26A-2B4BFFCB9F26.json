@@ -53,8 +53,14 @@
   },
   "incident_id": "87BBDFAF-06A0-48FB-B26A-2B4BFFCB9F26",
   "plus": {
-  "IOI_Impact_Score": 3,
+  "IOI_Impact_Score": 11,
+  "IOI_regulatory_fines": "Yes",
+  "IOI_regulatory_fines_amt": "500000",
+  "IOI_currency_code": "USD",
+  "IOI_consent_decree": "Yes",
   "IOI_under_1k_records": "Yes",
+  "IOI_govt_reporting_required": "Yes",
+  "IOI_media_coverage": "Yes", 
     "analysis_status": "First pass",
     "analyst": "jayjacobs",
     "attribute": {
@@ -73,9 +79,7 @@
       }
     }
   },
-  "reference": "http://www.news-press.com/story/news/investigations/melanie-payne/2014/06/20/tell-mel-security-breach-worries-fort-myers-woman/11026143/;http://www.phiprivacy.net/advanced-care-hospitalists-notifies-patients-of-breach-at-billing-vendor/",
-  "IOI_media_coverage": "Yes", 
-  "IOI_govt_reporting_required": "Yes",
+  "reference": "http://www.news-press.com/story/news/investigations/melanie-payne/2014/06/20/tell-mel-security-breach-worries-fort-myers-woman/11026143/;http://www.phiprivacy.net/advanced-care-hospitalists-notifies-patients-of-breach-at-billing-vendor/; https://www.databreaches.net/florida-contractor-physicians-group-settles-hhs-claims-after-they-failed-to-have-a-ba-agreement-in-place-with-a-vendor-who-had-a-breach/",
   "schema_version": "1.3.2",
   "security_incident": "Confirmed",
   "source_id": "vcdb",

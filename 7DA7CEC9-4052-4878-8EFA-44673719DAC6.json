@@ -79,8 +79,8 @@
   "IOI_over_1billion_records": "Yes",
   "IOI_executive_churn": "Yes",
   "IOI_government_testimony": "Yes",
-  "IOI_other_monetary_impact_amt:", "35000000",
-  "IOI_other_monetary_impact_notes", "Price drop from M&A"
+  "IOI_other_monetary_impact_amt": "35000000",
+  "IOI_other_monetary_impact_notes": "Price drop from M&A",
     "analysis_status": "Finalized",
     "analyst": "Spitler",
     "attribute": {

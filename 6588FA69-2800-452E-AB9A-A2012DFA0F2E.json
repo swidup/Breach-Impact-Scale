@@ -59,11 +59,13 @@
   },
   "incident_id": "6588FA69-2800-452E-AB9A-A2012DFA0F2E",
   "plus": {
-  "IOI_Impact_Score": 14,
+  "IOI_Impact_Score": 20,
   "IOI_individual_lawsuit": "Yes",
   "IOI_multiple_domestic_juris_affected": "Yes",
+  "IOI_class_action_lawsuit": "Yes",
   "IOI_extended_media_coverage": "Yes",
   "IOI_govt_reporting_required": "Yes",
+  "IOI_law_enforcement_action": "Yes",
   "IOI_media_coverage": "Yes",
   "IOI_over_1million_records": "Yes",
     "analysis_status": "Finalized",
@@ -86,7 +88,7 @@
       }
     }
   },
-  "reference": "http://www.journalgazette.net/business/Local-medical-software-company-hacked-7127894; http://www.wlky.com/news/Metro-employees-personal-information-at-risk-after-Concentra-data-breach/34290346; http://www.businesswire.com/news/home/20150724005450/en/Medical-Informatics-Engineering-Updates-Notice-Individuals-Data; http://www.landlinemag.com/Story.aspx?StoryID=29554; http://t.co/XNf5rLMUor; http://news.softpedia.com/news/data-of-4-million-patients-lost-in-mie-hacking-488319.shtml; http://www.tribstar.com/news/local_news/uap-adds-explanation-on-radiological-record-breach/article_482805a9-d077-5d32-8db3-fd26cdb4d269.html",
+  "reference": "http://www.journalgazette.net/business/Local-medical-software-company-hacked-7127894; http://www.wlky.com/news/Metro-employees-personal-information-at-risk-after-Concentra-data-breach/34290346; http://www.businesswire.com/news/home/20150724005450/en/Medical-Informatics-Engineering-Updates-Notice-Individuals-Data; http://www.landlinemag.com/Story.aspx?StoryID=29554; http://t.co/XNf5rLMUor; http://news.softpedia.com/news/data-of-4-million-patients-lost-in-mie-hacking-488319.shtml; http://www.tribstar.com/news/local_news/uap-adds-explanation-on-radiological-record-breach/article_482805a9-d077-5d32-8db3-fd26cdb4d269.html; https://kvoa.com/news/2018/12/03/arizona-joins-eleven-other-states-in-lawsuit-over-patient-privacy-hack/; http://city-countyobserver.com/ag-curtis-hill-files-first-multistate-hipaa-related-data-breach-lawsuit/; https://www.fwbusiness.com/news/health_care/article_040bd822-0084-5555-9e9d-d3f6e0fa2688.html",
   "schema_version": "1.3.2",
   "security_incident": "Confirmed",
   "source_id": "vcdb",
