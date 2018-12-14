@@ -2,7 +2,7 @@
   "action": {
     "error": {
       "variety": [
-        "Misdelivery"
+        "Publishing"
       ],
       "vector": [
         "Unknown"
@@ -79,11 +79,11 @@
       }
     }
   },
-  "reference": "http://www.news-press.com/story/news/investigations/melanie-payne/2014/06/20/tell-mel-security-breach-worries-fort-myers-woman/11026143/;http://www.phiprivacy.net/advanced-care-hospitalists-notifies-patients-of-breach-at-billing-vendor/; https://www.databreaches.net/florida-contractor-physicians-group-settles-hhs-claims-after-they-failed-to-have-a-ba-agreement-in-place-with-a-vendor-who-had-a-breach/",
+  "reference": "http://www.news-press.com/story/news/investigations/melanie-payne/2014/06/20/tell-mel-security-breach-worries-fort-myers-woman/11026143/;http://www.phiprivacy.net/advanced-care-hospitalists-notifies-patients-of-breach-at-billing-vendor/; https://www.databreaches.net/florida-contractor-physicians-group-settles-hhs-claims-after-they-failed-to-have-a-ba-agreement-in-place-with-a-vendor-who-had-a-breach/; https://www.hipaaguide.net/advanced-care-hospitalists-pays-500000-for-multiple-hipaa-compliance-violations/",
   "schema_version": "1.3.2",
   "security_incident": "Confirmed",
   "source_id": "vcdb",
-  "summary": "As best as I can tell, a healthcare billing company sent patient records/billing info to the wrong processor (who processed the billing info).",
+  "summary": "ACH received a report from a local hospital on February 11, 2014 stating some of its patient data – such as names, dates of birth, Social Security numbers, and clinical data – were accessible on the website of First Choice. The following day, the website was closed down.",
   "timeline": {
     "compromise": {
       "unit": "NA"
@@ -101,7 +101,7 @@
       "US"
     ],
     "employee_count": "Unknown",
-    "industry": "541611",
+    "industry": "622110",
     "region": [
       "019021"
     ],
