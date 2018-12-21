@@ -63,10 +63,17 @@
   },
   "incident_id": "10C45B97-0D3E-4320-A5F0-543BD3AD3C28",
   "plus": {
-  "IOI_Impact_Score": 5,
+  "IOI_Impact_Score": 18,
   "IOI_govt_reporting_required": "Yes",
   "IOI_media_coverage": "Yes",
   "IOI_over_10k_records": "Yes",
+  "IOI_legal_settlements": "Yes",
+  "IOI_legal_settlements_amt": "75000",
+  "IOI_consent_decree": "Yes",
+  "IOI_increased_security": "Yes",
+  "IOI_currency_code": "USD", 
+  "IOI_single_domestic_juris_affected": "Yes",
+  "IOI_law_enforcement_action": "Yes",
     "analysis_status": "Finalized",
     "analyst": "Spitler",
     "attribute": {
@@ -88,7 +95,7 @@
       }
     }
   },
-  "reference": "http://www.hipaajournal.com/mclean-hospital-brain-donators-have-phi-exposed-8047/",
+  "reference": "http://www.hipaajournal.com/mclean-hospital-brain-donators-have-phi-exposed-8047/; https://www.databreaches.net/ma-mclean-hospital-to-implement-new-security-and-training-programs-after-data-breach-exposed-sensitive-health-information/",
   "schema_version": "1.3.2",
   "security_incident": "Confirmed",
   "source_id": "vcdb",
