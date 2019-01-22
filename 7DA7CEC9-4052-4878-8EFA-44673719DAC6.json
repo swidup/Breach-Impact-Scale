@@ -68,7 +68,7 @@
   "IOI_individual_lawsuit": "Yes",
   "IOI_class_action_lawsuit": "Yes",
   "IOI_legal_settlements": "Yes",
-  "IOI_legal_settlements_amt": "212000000",
+  "IOI_legal_settlements_amt": "241000000",
   "IOI_multiple_domestic_juris_affected": "Yes",
   "IOI_international_juris_affected": "Yes",
   "IOI_regulatory_fines": "Yes",
@@ -102,7 +102,7 @@
       }
     }
   },
-  "reference": "https://krebsonsecurity.com/2016/12/yahoo-one-billion-more-accounts-hacked/; https://www.wsj.com/articles/yahoo-triples-estimate-of-breached-accounts-to-3-billion-1507062804; https://www.bankinfosecurity.com/yahoo-takes-350-million-hit-in-verizon-deal-a-9736; https://www.classaction.com/data-breach/yahoo-lawsuit/; https://www.lexology.com/library/detail.aspx?g=f00477a3-7694-4f1d-919f-8417b5932e35; https://www.darkreading.com/endpoint/yahoo-class-action-suits-set-for-settlement/d/d-id/1332828; https://techcrunch.com/2018/09/17/altaba-to-settle-lawsuits-relating-to-yahoo-data-breach-for-47-million/; https://techcrunch.com/2018/06/12/uk-watchdog-issues-330k-fine-for-yahoos-2014-data-breach/; https://www.trendmicro.com/vinfo/us/security/news/online-privacy/uk-ico-fines-yahoo-250-000-for-2014-data-breach; http://www.itpro.co.uk/data-breaches/31289/yahoo-handed-250000-fine-over-2014-data-breach; https://www.mercurynews.com/2018/10/23/yahoo-might-owe-you-money-it-agrees-to-pay-85-million-in-data-breach-settlement/",
+  "reference": "https://krebsonsecurity.com/2016/12/yahoo-one-billion-more-accounts-hacked/; https://www.wsj.com/articles/yahoo-triples-estimate-of-breached-accounts-to-3-billion-1507062804; https://www.bankinfosecurity.com/yahoo-takes-350-million-hit-in-verizon-deal-a-9736; https://www.classaction.com/data-breach/yahoo-lawsuit/; https://www.lexology.com/library/detail.aspx?g=f00477a3-7694-4f1d-919f-8417b5932e35; https://www.darkreading.com/endpoint/yahoo-class-action-suits-set-for-settlement/d/d-id/1332828; https://techcrunch.com/2018/09/17/altaba-to-settle-lawsuits-relating-to-yahoo-data-breach-for-47-million/; https://techcrunch.com/2018/06/12/uk-watchdog-issues-330k-fine-for-yahoos-2014-data-breach/; https://www.trendmicro.com/vinfo/us/security/news/online-privacy/uk-ico-fines-yahoo-250-000-for-2014-data-breach; http://www.itpro.co.uk/data-breaches/31289/yahoo-handed-250000-fine-over-2014-data-breach; https://www.mercurynews.com/2018/10/23/yahoo-might-owe-you-money-it-agrees-to-pay-85-million-in-data-breach-settlement/; https://www.dandodiary.com/2019/01/articles/cyber-liability/yahoo-data-breach-related-derivative-suit-settled-29-million/",
   "schema_version": "1.3.2",
   "security_incident": "Confirmed",
   "source_id": "vcdb",
