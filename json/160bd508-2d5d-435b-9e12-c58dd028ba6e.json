@@ -1,0 +1,116 @@
+{
+    "incident_id": "87e6a0f0-143d-11e9-9b0e-db2459a65ffe",
+    "security_incident": "Confirmed",
+    "reference": "https://krebsonsecurity.com/2018/11/marriott-data-on-500-million-guests-stolen-in-4-year-breach/; https://www.newsweek.com/marriott-hack-massive-data-leak-hits-500-million-customers-hotel-breached-1238449; https://viewfromthewing.boardingarea.com/2018/11/30/massive-marriott-data-breach-500-million-bookings-many-with-payment-and-passport-data/; https://www.zdnet.com/article/marriott-sued-hours-after-announcing-data-breach/; http://www.staradvertiser.com/2018/12/01/breaking-news/national-class-action-lawsuit-filed-over-marriott-data-breach/; https://www.washingtonpost.com/business/2018/12/04/marriott-will-pay-new-passports-after-data-breach-if-fraud-has-taken-place/?utm_term=.bdaa459d1bc9; https://techcrunch.com/2018/12/03/marriott-data-breach-response-risk-phishing/; https://mobilesyrup.com/2018/12/07/marriott-sends-notice-to-canadians-of-data-breach/; https://domainnamewire.com/2018/12/13/marriotts-poor-choice-of-domain-for-email-notification/; https://thehill.com/policy/technology/420929-china-behind-marriott-data-breach-investigators-conclude; https://www.npr.org/2018/12/12/675983642/chinese-hackers-are-responsible-for-marriott-data-breach-reports-say; https://www.washingtonpost.com/technology/2019/01/04/marriott-hackers-accessed-more-than-million-passport-numbers-during-novembers-massive-data-breach/?utm_term=.87ecbddf3ea0; https://securityboulevard.com/2019/01/marriott-lowers-estimate-of-customers-affected-by-breach-to-383-million-says-8-6-million-encrypted-payment-cards-involved/",
+    "summary": "On Nov. 30, 2018, the world’s largest hotel chain issued an embarrassing notice that its servers were breached, leaving 500 million guest records in criminal wrong hands. With the help of internal and external forensics and analytics teams, Marriot now knows that the number of affected customers is lower – albeit still high, by any standards.  “Working closely with its internal and external forensics and analytics investigation team, Marriott determined that the total number of guest records involved in this incident is less than the initial disclosure,” Marriot says in the update, posted to its news center Friday. “Also, the number of payment cards and passport numbers involved is a relatively small percentage of the overall total records involved,” the hotel chain said.  According to the updated news release, Marriott now believes 383 million guests may have been affected, a number it refers to as “the upper limit” for the number of guest records involved in the incident. The number could be lower, Marriott says, considering that many guests have multiple records.  The investigation has brought to light several other details as well. For example, approximately 5.25 million unencrypted passport numbers and 20.3 million encrypted passport numbers were among the records accessed by the intruder. Investigators found no evidence that the master encryption key was accessed, but they haven’t ruled it out either. Guests can contact Marriott’s call center and ask reps to look up their passport number to see if and how they are affected.  Around 8.6 million encrypted payment cards were involved in the incident, including 354,000 that were unexpired as of September 2018. Again, Marriot believes hackers have not accessed either of the components needed to decrypt the encrypted payment card numbers, but investigators are not ruling out this scenario either. Notably, a small number of customers may be more affected than others because of the way Marriott encrypted some form fields while others were not subject to encryption.",
+    "source_id": "vcdb",
+    "confidence": "High",
+    "timeline": {
+        "incident": {
+            "year": 2018
+        },
+        "discovery": {
+            "unit": "Years",
+            "value": 4
+        }
+    },
+    "victim": {
+        "victim_id": "Marriott",
+        "employee_count": "Over 100000",
+        "industry": "721110",
+        "country": [
+            "US"
+        ],
+        "state": "MD"
+    },
+    "action": {
+        "hacking": {
+            "variety": [
+                "Unknown"
+            ],
+            "vector": [
+                "Unknown"
+            ],
+            "result": [
+                "Exfiltrate",
+                "Infiltrate"
+            ]
+        }
+    },
+    "actor": {
+        "external": {
+            "variety": [
+                "Unaffiliated"
+            ],
+            "motive": [
+                "Unknown"
+            ],
+            "country": [
+                "Unknown"
+            ]
+        }
+    },
+    "asset": {
+        "assets": [
+            {
+                "variety": "S - Database"
+            }
+        ]
+    },
+    "attribute": {
+        "confidentiality": {
+            "data_disclosure": "Yes",
+            "data": [
+                {
+                    "amount": 383000000,
+                    "variety": "Personal"
+                },
+                {
+                    "amount": 8600000,
+                    "variety": "Payment"
+                }
+            ],
+            "data_victim": [
+                "Customer"
+            ],
+            "state": [
+                "Stored unencrypted"
+            ]
+        }
+    },
+    "targeted": "Unknown",
+    "discovery_method": {
+        "unknown": true
+    },
+    "plus": {
+        "created": "2019-01-10T08:37:49.665Z",
+        "event_chain": [
+            {
+                "action": "hak",
+                "actor": "ext",
+                "asset": "srv",
+                "attribute": "cp",
+                "summary": "External attacker hacks into database and steals customer data."
+            }
+        ],
+        "modified": "2019-01-10T08:37:49.665Z",
+        "master_id": "160bd508-2d5d-435b-9e12-c58dd028ba6e",
+        "analysis_status": "Validated",
+        "analyst": "swidup",
+        "IOI_Impact_Score": 30,
+        "IOI_over_100million_records": "Yes",
+        "IOI_individual_lawsuit": "Yes",
+        "IOI_class_action_lawsuit": "Yes",
+        "IOI_government_testimony": "Yes",
+        "IOI_govt_reporting_required": "Yes",
+        "IOI_media_coverage": "Yes",
+        "IOI_extended_media_coverage": "Yes",
+        "IOI_multple_domestic_juris_affected": "Yes",
+        "IOI_international_juris_affected": "Yes",
+        "IOI_poor_IR_handling": "Yes",
+        "IOI_poor_IR_Description": "Notification email domain was not a valid domain and had no certificate.  Subsequent spoofed emails commenced.",
+        "dbir_year": 2019,
+        "github": "12614"
+    },
+    "schema_version": "1_3_3"
+}
