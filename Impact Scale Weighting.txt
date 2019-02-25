@@ -1,0 +1,41 @@
+Indicator	Data Type	Weighting
+Increased security	Boolean	1
+10k/8k language	Boolean	3
+Individual lawsuit(s)	Boolean	2
+Class action lawsuit(s)	Boolean	3
+Time sensitivity	Boolean	3
+Executive churn	Boolean	3
+Consent decree	Boolean	5
+Industry oversight	Boolean	5
+Government testimony	Boolean	3
+Regulatory fines	Boolean	3
+Regulatory fines amount	Integer	
+Law enforcement action	Boolean	3
+New industry-only law	Boolean	4
+Media coverage	Boolean	1
+Extended media coverage	Boolean	2
+Legal settlements	Boolean	3
+Legal settlements amount	Integer	
+Organization bankruptcy	Boolean	6
+Organization extinction	Boolean	10
+Partner bankruptcy	Boolean	4
+Partner extinction	Boolean	5
+Single domestic jurisdiction affected	Boolean	1
+Multiple domestic jurisdictions affected	Boolean	3
+International jurisdictions affected	Boolean	5
+Government reporting required	Boolean	1
+Enhanced data sensitivity	Boolean	3
+New laws created (affecting all industries)	Boolean	5
+Business relationship ended	Boolean	3
+Under 1k records disclosed	Boolean	1
+Over 1k records disclosed	Boolean	2
+over 10k records disclosed	Boolean	3
+Over 100,000 records disclosed	Boolean	4
+Over 1 million records disclosed	Boolean	5
+Over 10 million records disclosed	Boolean	6
+Over 100 million records disclosed	Boolean	7
+Loss of Productivity	Boolean	3
+Other monetary impact amount	Integer	
+Other monetary impact description	Text	
+IOI poor IR handling	Boolean	3
+IOI poor IR handling Description	Text	
