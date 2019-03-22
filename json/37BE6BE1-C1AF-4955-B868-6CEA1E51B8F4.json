@@ -68,6 +68,9 @@
   "IOI_govt_reporting_required": "Yes",
   "IOI_media_coverage": "Yes",
   "IOI_over_1million_records": "Yes",
+  "IOI_legal_settlements": "Yes",
+  "IOI_legal_settlements_amt": "7500000",
+  "IOI_currency_code": "USD",
     "analysis_status": "Finalized",
     "analyst": "swidup",
     "attribute": {
@@ -87,7 +90,7 @@
       }
     }
   },
-  "reference": "http://www.latimes.com/business/la-fi-ucla-medical-data-20150717-story.html",
+  "reference": "http://www.latimes.com/business/la-fi-ucla-medical-data-20150717-story.html; https://healthitsecurity.com/news/ucla-health-reaches-7.5m-settlement-over-2015-breach-of-4.5m",
   "schema_version": "1.3.2",
   "security_incident": "Confirmed",
   "source_id": "vcdb",
