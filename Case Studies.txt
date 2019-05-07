@@ -1,0 +1,7 @@
+Case Studies
+
+Case Study json:
+Equifax: 957d1a6c-de24-41d0-8d09-d72157da4848.json
+Yahoo: 7DA7CEC9-4052-4878-8EFA-44673719DAC6.json
+Marriott: 160bd508-2d5d-435b-9e12-c58dd028ba6e.json
+LabMD: 1F7FBF08-8CE3-4C08-A274-E62C7A07ED80.json
